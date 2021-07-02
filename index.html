@@ -7,25 +7,44 @@
 
 </head>
 <body>
+	<form action="">
 	<h1>Forms in HTML</h1>
-	<form action="" method="post">
-		<ul>
-			<li>
-				<label for="name">Enter your name:</label>
-				<input type="" id="name">
-			</li>
-			<li>
-				<label for="commments">Your comments</label>
-				<textarea id="commments" name="commments" rows="30" cols="50">Leave some info</textarea>
-		 	</li>
-		 	<li>
-		 		<label for css> Do you like CSS?</label>
-		 		<input type="checkbox" name="css" id="css">
-		 	</li>
-		 	<input type="submit" value="GO!" name="">
-		</ul>
-		
+		<label for="username">Username: </label>
+		<input type="text" id="username" name="username" placeholder="Username" required>
+		<br><br>
+		<label for="email">Email: </label>
+		<input type="email" id="email" name="email" placeholder="Email" required>
+		<br><br>
+		<label for="password">Password: </label>
+		<input type="password" id="password" name="password" placeholder="Password" required>
 
+		<p>Select your age:</p>
+
+		<input type="radio" name="age" value="0-25" id="option-1">
+		<label for="option-1">0-25</label>
+		<input type="radio" name="age" value="26-30" id="option-2">
+		<label for="option-2">26-30</label>
+		<input type="radio" name="age" value="30+" id="option-3">
+		<label for="option-1">30+</label>
+
+		<br><br>
+		<label for="">Security Question:</label>
+		<select name="question" id="question">
+			<option value="q1">Whats your name?</option>
+			<option value="q2">Where do you live?</option>
+			<option value="q3">How old are you?</option>
+		</select>
+		<br><br>
+
+		<label for="answer">Sequrity question answer</label>
+		<input type="text" name="answer" id="answer">
+
+		<br><br>
+		<label for="bio">Your Bio</label><br>
+		<textarea name="bio" id="bio" cols="30" rows="10" placeholder="Your bio"></textarea>
+		<br><br>
+
+		<input type="submit" value="Submit the Form">
 	</form>
 	
 </body>
