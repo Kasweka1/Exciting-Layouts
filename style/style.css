@@ -1,0 +1,18 @@
+#header{
+	color: red;
+}
+
+#body{
+	border: 2px solid red;
+	margin: 20px;
+	padding: 10px;
+}
+
+#body p{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+}
+
+#body p.par_title{
+	font-weight:bold;
+}
