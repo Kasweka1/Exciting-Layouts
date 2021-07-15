@@ -7,8 +7,6 @@ body{
 nav{
 	background-color: #117AF2;
 	padding: 10px 15px;
-
-
 }
 nav div{
 	display:inline;
@@ -21,10 +19,12 @@ nav li{
     display:inline-block;
     padding-right:20px;  
 }
-
 nav li a{
     text-decoration:none;
      color:white
+}
+nav li a:hover{
+	text-decoration: underline;
 }
 /* --nav-- */
 
@@ -44,20 +44,32 @@ div.button a{
 	text-decoration:none;
 	color:white;
 }
+
 div.button{
 	background-color: #D46606;
 	padding:3px 30px;
 	width:250px;
 	margin:90px auto;
 	border-radius: 60px;
-
 }
 /* -- main-- */
 /* -- footer-- */
 footer{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	background-color:#707070;
 	color:white;
-	padding:20px
+	grid-auto-rows:minmax(100px, auto);
+	grid-gap:15px;
+	padding:39px 10px;
+}
+footer div{
+	margin: 10px;
+	font-family:arial;
+	width:300px;
+}
+footer div p{
+	font-size:0.8em;
 }
 
 /* -- footer-- */
