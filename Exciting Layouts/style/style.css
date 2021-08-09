@@ -40,18 +40,20 @@ main p{
 	font-size:1.3em;
 }
 	
-div.button a{
+#theme {
 	text-decoration:none;
 	color:white;
+	cursor: pointer;
 }
-
-div.button{
+#theme{
 	background-color: #D46606;
 	padding:3px 30px;
 	width:250px;
 	margin:90px auto;
 	border-radius: 60px;
 }
+
+
 /* -- main-- */
 /* -- footer-- */
 footer{
